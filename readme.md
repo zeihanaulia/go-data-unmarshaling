@@ -11,3 +11,8 @@ Decoding itu sebaliknya kita memberikan array byte sebagai parameter dan object 
 yang nantinya akan di isi.
 
 Isi dari array byte bisa dari manapun, misal dari http request, dari file, apapun bisa dimasukan.
+
+## Custom encoding dan decoding
+
+Bisa gak sih ngekustom encoding dan decoding? bisa
+Pada dasarnya kita bisa nge extend dari interface MarshalJSON()
