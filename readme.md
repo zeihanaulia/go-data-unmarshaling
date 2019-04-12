@@ -16,3 +16,10 @@ Isi dari array byte bisa dari manapun, misal dari http request, dari file, apapu
 
 Bisa gak sih ngekustom encoding dan decoding? bisa
 Pada dasarnya kita bisa nge extend dari interface MarshalJSON()
+
+## Gimana caranya mengandle tipe data yang berbeda beda
+
+Golang itu static type, ketika kita set type data misal ke int maka jika dimasukan string akan error
+Lalu bagaimana, jika request yang kita terima itu bisa berbeda beda. Kita bisa liat lagi macam macam type di go
+ada salah satu type yang bernama [interface{}](https://tour.golang.org/methods/14) tipe ini bisa menerima semuanya
+Tapi akan ada kerja extra untuk memparsingnya
