@@ -49,3 +49,11 @@ easyjson -all <file>.go
 
 jason menjual schemaless. pernah gak ngerasa bete bikin struct dimana mana. nah si jason ini membantu kita bermain json tanpa
 perlu membuat struct-struct menarikaan? intinya kalo gak mau bikin banyak struct dan gak mau gonta ganti type ya make jason aja
+
+## misal kita udah punya existing api, ada gak tools buat generate dari json ke struct
+
+Adaa, namanya gojson. kalo udah ada sample jsonnya tinggal run sintax ini
+
+```bash
+gojson -name StatusResponse -subStruct -o twitter.go < tweets.json
+```
