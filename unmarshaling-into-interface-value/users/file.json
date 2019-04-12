@@ -1,0 +1,14 @@
+{
+    "username": "zei",
+    "height": 178,
+    "address": {
+        "street": "jalan jalan",
+        "city": "jakarta",
+        "country": "germany"
+    },
+    "interest": [
+        "Ngoding",
+        "Ngopi",
+        "Ngayap"
+    ]
+}
