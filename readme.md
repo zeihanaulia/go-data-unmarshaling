@@ -29,9 +29,23 @@ Tapi akan ada kerja extra untuk memparsingnya
 Ada, bisa liat disini https://github.com/avelino/awesome-go#json
 Cuma kita coba bahas [easyjson](https://github.com/mailru/easyjson) sama jason
 
+### easyjson
+
 easyjason mengclaim dia cepet banget bisa liat disini [benchmark](https://github.com/mailru/easyjson#unmarshaling)
 Tapi dia menggunakan code generator, jadi mungkin kalo gak terbiasa kodenya dihandle sama code generator bakal susah juga
 Ya intinya, kalo emang butuh yang ngebut ngebut bisa pake ini
+
+menggunakan easyjson cukup mudah, misal udah buat struct tinggal generate aja
+
+```bash
+# install
+go get -u github.com/mailru/easyjson/...
+
+# run
+easyjson -all <file>.go
+```
+
+### jason
 
 jason menjual schemaless. pernah gak ngerasa bete bikin struct dimana mana. nah si jason ini membantu kita bermain json tanpa
 perlu membuat struct-struct menarikaan? intinya kalo gak mau bikin banyak struct dan gak mau gonta ganti type ya make jason aja
