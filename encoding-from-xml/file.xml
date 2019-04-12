@@ -1,0 +1,4 @@
+<Target>
+    <Foo>bar1</Foo>
+    <Bar>foo1</Bar>
+</Target>
