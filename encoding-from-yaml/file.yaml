@@ -1,1 +1,2 @@
-{"Foo":"bar1","Bar":"foo1"}
+foo: bar1
+bar: foo1
