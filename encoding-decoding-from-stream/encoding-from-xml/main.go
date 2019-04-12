@@ -7,8 +7,8 @@ import (
 )
 
 type Target struct {
-	Foo string `yaml:"foo,omitempty"`
-	Bar string `yaml:"bar,omitempty"`
+	Foo string `xml:"foo,omitempty"`
+	Bar string `xml:"bar,omitempty"`
 }
 
 func main() {

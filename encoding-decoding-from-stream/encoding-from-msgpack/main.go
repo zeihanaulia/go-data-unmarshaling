@@ -8,8 +8,8 @@ import (
 )
 
 type Target struct {
-	Foo string `yaml:"foo,omitempty"`
-	Bar string `yaml:"bar,omitempty"`
+	Foo string `msgpack:"foo,omitempty"`
+	Bar string `msgpack:"bar,omitempty"`
 }
 
 func main() {
