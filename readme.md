@@ -29,7 +29,7 @@ Tapi akan ada kerja extra untuk memparsingnya
 Ada, bisa liat disini https://github.com/avelino/awesome-go#json
 Cuma kita coba bahas [easyjson](https://github.com/mailru/easyjson) sama jason
 
-### easyjson
+### [easyjson](https://github.com/mailru/easyjson)
 
 easyjason mengclaim dia cepet banget bisa liat disini [benchmark](https://github.com/mailru/easyjson#unmarshaling)
 Tapi dia menggunakan code generator, jadi mungkin kalo gak terbiasa kodenya dihandle sama code generator bakal susah juga
@@ -45,14 +45,14 @@ go get -u github.com/mailru/easyjson/...
 easyjson -all <file>.go
 ```
 
-### jason
+### [jason](https://github.com/antonholmquist/jason)
 
 jason menjual schemaless. pernah gak ngerasa bete bikin struct dimana mana. nah si jason ini membantu kita bermain json tanpa
 perlu membuat struct-struct menarikaan? intinya kalo gak mau bikin banyak struct dan gak mau gonta ganti type ya make jason aja
 
 ## misal kita udah punya existing api, ada gak tools buat generate dari json ke struct
 
-Adaa, namanya gojson. kalo udah ada sample jsonnya tinggal run sintax ini
+Adaa, namanya [gojson](https://github.com/ChimeraCoder/gojson). kalo udah ada sample jsonnya tinggal run sintax ini
 
 ```bash
 gojson -name StatusResponse -subStruct -o twitter.go < tweets.json
